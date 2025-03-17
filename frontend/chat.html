@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chat with Campus Buddy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+</head>
+<body class="chat-page">
+    <!-- Header with Navigation -->
+    <header class="header chat-header">
+        <div class="header-container">
+            <img src="assets/teacher.png" alt="Teacher" class="header-icon" />
+            <h1 class="site-title">Smart Campus Assistant</h1>
+            <img src="assets/student.png" alt="Student" class="header-icon" />
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main class="chat-main">
+        <div class="chat-container">
+            <div id="chatBox" class="chat-box">
+                <!-- Chat messages will be dynamically appended here -->
+            </div>
+            <div class="input-container">
+                <input type="text" id="userInput" placeholder="Type your message..." autocomplete="off" />
+                <button id="sendBtn" class="send-button">&#10148;</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="chat-footer">
+        <button id="clearChat" class="clear-button">Clear Chat</button>
+    </footer>
+</body>
+</html>
