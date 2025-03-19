@@ -59,7 +59,8 @@ body {
 
 /* Landing Page */
 .index-page {
-    background: linear-gradient(#f1855e, #48ec53);
+    background: linear-gradient(to bottom, #ced6de, #e0a0a0);
+    /* background: linear-gradient(#f1855e, #48ec53); */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -77,9 +78,12 @@ body {
 }
 
 .hero-image img {
-    max-width: 345px;
+    max-width: 480px;
+    height: 190px;
     border-radius: 10px;
     margin-bottom: 1rem;
+    background-color: transparent;
+    mix-blend-mode: multiply;
 }
 
 .hero-text h2 {
@@ -94,6 +98,7 @@ body {
 .hero-text p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
+    color:#394b22
 }
 
 .btn {
@@ -113,7 +118,7 @@ body {
 
 /* Chat Page */
 .chat-page {
-    background: #f0f2f5;
+    background: linear-gradient(to bottom, #ced6de, #e0a0a0);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -134,7 +139,7 @@ body {
 }
 
 .chat-container {
-    background: #fff;
+    background: #f4f2f2;
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
@@ -145,11 +150,13 @@ body {
 }
 
 .chat-box {
-    flex: 1;
+    height: 520px;
+    padding: 10px;
+    /* flex: 1; */
     padding: 1rem;
     overflow-y: auto;
-    background: #f7f9fc;
-    border-bottom: 1px solid #ddd;
+    background: #2b3340;
+    border-bottom: 1px solid #9c2626;
 }
 
 .message {
@@ -185,7 +192,7 @@ body {
 .input-container {
     display: flex;
     padding: 1rem;
-    background: #fff;
+    background: #fefdfd;
 }
 
 #userInput {
