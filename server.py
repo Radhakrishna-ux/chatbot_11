@@ -1,9 +1,9 @@
 import os
 from flask import Flask, request, jsonify, send_from_directory
-# from flask_cors import CORS 
+from flask_cors import CORS 
 
 app = Flask(__name__, static_folder='frontend', static_url_path='')
-# CORS(app)
+CORS(app)
 
 # Define intents and corresponding phrases (all in lowercase for matching)
 intents = {
