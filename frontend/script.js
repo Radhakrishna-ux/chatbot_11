@@ -43,7 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
             // Send the user's message to the Flask API endpoint
             const response = await fetch(//"/api/chat", {
-             "http://localhost:5000/api/chat", { //--- for local (change port as per your device)
+             //"http://localhost:5000/api/chat"
+               "https://chatbot-11-2.onrender.com" , {
+             //  { //--- for local (change port as per your device)
                 // https://smart-assistantbot.onrender.com/api/chat" --- for online
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
