@@ -54,7 +54,7 @@ responses = {
      "labs":"💻Lab hours are from 9:00 AM to 4:00 PM. It's available for different classes at different periods - check your schedule!⌚if you need to use the lab for extra work, just take permission from the lab teacher 👨‍🏫✨",
      "alumni":"🤝We have many wonderful alumini! You can know about their inspiring stiries in icons of imperial.Be inspired and dream big🌟 ",
      "placement":"🏢⭐Excited about placement? Explore our placement records and upcoming drives through the Training and placement committee. Your dream job awaits!",
-     "college time":"🏫college open at 9AM and classes are upto 4PM ."
+     "college time":"🏫college open at 9AM and classes are upto 4PM .",
      "unknown": "I'm sorry, I don't understand. Can you rephrase it?"
 }
 
