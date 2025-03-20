@@ -21,7 +21,7 @@ intents = {
     "admission process":["how to apply", "admission process","how to take admission","admission form details"],
     "scholarship":["scholarship details","available scolarships","how to apply for scholarship", "scholarship"],
     "attendance":["attendence rules","minimum attendence required","attendence criteria","attendance"],
-    "faculty contact":["how to contact faculty","teacher contact details","faculty email id","faculty contact"],
+    "faculty contact":["how to contact faculty","teacher contact details","faculty email id","faculty contact","hod","teacher"],
     "transport":["bus service","college transport timing","college bus fee","transport","bus"],
     "lost and found":["lost items","how to report lost item","found items help", "lost and found","missed"],
     "medical facilities":["medical help","first aid in college","college hospital", "medical facilities","medical"],
