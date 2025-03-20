@@ -15,20 +15,20 @@ intents = {
     "holidays": ["next holidays", "holidays","chhutti"],
     "results": ["topper's list", "university topper","results"],
     "clubs": ["what clubs available", "clubs detail", "how many clubs", "clubs"],
-    "library timings": ["when is library open", "library timing", "what are library hours", "library open time", "until what time is the library open"],
-    "canteen hour": ["canteen timing", "brakfast time", "lunch", "dinner", "when does the canteen open", "what time is breakfast in the canteen", "when is lunch served", "dinner time in the canteen", "canteen open hours", "canteen hour"],
+    "library timings": ["when is library open", "library timing", "what are library hours", "library open time", "until what time is the library open","library"],
+    "canteen hour": ["canteen timing", "brakfast time", "lunch", "dinner", "when does the canteen open", "what time is breakfast in the canteen", "when is lunch served", "dinner time in the canteen", "canteen open hours", "canteen hour","hungry"],
     "hostel facilities": ["where can i stay", "hostel", "hostel details", "hostel facilities"],
-    "admission process":["how to apply", "admission process","how to take admission","admission form details"],
+    "admission process":["how to apply", "admission process","how to take admission","admission form details","admission"],
     "scholarship":["scholarship details","available scolarships","how to apply for scholarship", "scholarship"],
     "attendance":["attendence rules","minimum attendence required","attendence criteria","attendance"],
-    "faculty contact":["how to contact faculty","teacher contact details","faculty email id","faculty contact","hod","teacher"],
+    "faculty contact":["how to contact faculty","teacher contact details","faculty email id","faculty contact","hod","teacher","faculty"],
     "transport":["bus service","college transport timing","college bus fee","transport","bus"],
-    "lost and found":["lost items","how to report lost item","found items help", "lost and found","missed"],
-    "medical facilities":["medical help","first aid in college","college hospital", "medical facilities","medical"],
+    "lost and found":["lost items","how to report lost item","found items help", "lost and found","missed","lost"],
+    "medical facilities":["medical help","first aid in college","college hospital", "medical facilities","medical","hospital"],
     "labs":["lab timing","computer lab access","when labs are open","labs","computer"],
     "alumni":["alumi network","famous alumni","alumni"],
-    "placement":["placement record","placement oppurtunities","company visiting campus","placement","jobs"]
-    
+    "placement":["placement record","placement oppurtunities","company visiting campus","placement","jobs"],
+    "college time":["college timing","timings for college", "opening","college open at"]
     }
 
 # Define responses for each intent (for "canteen hour" we use a different key in responses)
